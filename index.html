@@ -1,0 +1,213 @@
+<html>
+<head>
+  <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title>Join to the akatsuki</title>
+   <link rel="stylesheet" href="style.css">
+     <style type="text/css">
+	 *{
+	    margin:0;
+		padding:0;
+		}
+		.header{
+		      min-height: 100vh;
+			  witdh:100%;
+			  background-image:url(akatsuki.jpg)
+			  ;
+			  background-position: center;
+			  background-size: cover;
+		      position: relative;
+		
+		}
+		nav {
+		display:flex;
+		padding:2% 6%;
+		justify-content:space-between;
+		align-items:center;
+		}
+		nav img {
+		   width:150px;
+		}
+		.nav-links:{
+		  flex:1;
+		  text-align:right;
+		}
+		
+		.nav-links ul li {
+		list-style:none;
+		display:inline-block;
+		padding:8px 12px;
+		position:relative;
+		
+		
+		}
+		.nav-links ul li a{
+		color:#fff;
+		text-decoration:none;
+		font-size:13px;
+		font-style:Tahoma;
+		}
+		.nav-links ul li::after {
+		content:'';
+		width:0%;
+		height:2px;
+		background-color:#f44336;
+		display:block;
+		margin:auto;
+		transition:1s;
+		
+		}
+		.nav-links ul li:hover::after{
+		width:100%;
+		
+		}
+		
+		.text-box{
+		color:#fff;
+		position:absolute;
+		width:90%;
+		top:50%;
+		left:50%
+		transform:translate(-50%,-50%);
+		text-align:center;
+		
+		}
+		.text-box h1{
+		font-size:62px;}
+		.text-box p{
+		margin:10px 0 40px;
+		font-size:14px;
+		color:white;
+		}
+	  .hero-btn{
+	  display:inline-block;
+	  text-decoration:none;
+	  color:red;
+	  border:1px solid red;
+	  padding:12px 34px;
+	  font-size:13px;
+	  background:transparent;
+	  position:relative;
+	  cursor:pointer;
+	  
+	  }
+	  .hero-btn:hover{
+	  border:1px solid #fff;
+	  background:#fff;
+	  transition:1s;
+	  
+	  }
+	  nav.fa  {
+	  display:none;
+	  }
+	/*------ course-------*/
+	.course{
+	width:80%;
+	margin:auto;
+	text-align:center;
+	padding-top:100px;
+	
+	}
+	h1 {
+	font-size:36px;
+	font-weight:600;
+	
+	}
+	p{
+	  color:black;
+	  font-size:14px;
+	  font-weight:22px;
+	  line-height:22px;
+	  padding:10px;
+	
+	}
+	.row{
+	margin-top:5%;
+	display:flex;
+	justify-content:space-between;
+	}
+	
+	.course-col {
+	flex-basis:31%;
+	background:red;
+	border-radius:10px;
+	margin-bottom:5%;
+	padding: 20px 12px;
+	box-sizing:border-box;
+	transition:0.5s;
+	}
+	
+	h3 {
+	text-align:center;
+	font-weight:600;
+	margin:10px 0;
+	
+	
+	}
+	.course-col:hover{
+	box-shadow: 0 0 20px 0px black;
+
+	}
+	
+	//#logo{position:fixed;}
+	
+	
+	 </style>
+</head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<body>
+      <section class="header">
+	    <nav>
+		    <a href="index.html" id="logo"><img src="download.png"></a>
+			<div class="nav-links">
+			
+			    <ul>
+				   <li><a href="">HOME</a></li>
+				   <li><a href="">ABOUT</a></li>
+				   <li><a href="">COURSE</a></li>
+				   <li><a href="">BLOG</a></li>
+				   <li><a href="mailto:musaxlilov29@gmail.com">CONTACT</a></li>
+				</ul>
+			</div>
+			
+		</nav>
+		<div class="text-box">
+		<h1>Welcome To The Akatsuki</h1>
+		<p>hkjhaahsfkahslkfsalkafasfasfahssfsd<br>fdsfdsfsfdsfsdaasfasfaffdsalfkashf<br>lkahflkasfaslaksflas</p>
+		<a href="mailto:musaxlilov29@gmail" class="hero-btn">sent us a email to know more</a>
+		</div>
+	  
+	  </section>
+	  
+	  <!------course------>
+	  
+	  <section class="course">
+	  <h1>Courses We Offer</h1>
+	  <p>ajhdkjsahdlsahdlashdlahsdlakhsdl.kahsldkashdlkAHSdlkshddalkhdl</P>
+	  
+	  <div class="row">
+	  
+	  <div class="course-col">
+	  
+	  <h3>something</h3>
+	  <p>bilmedim bura ne yazim ahashdlksadakshdlaskhdlakshdashdlsa.kjhdakjs
+	  hfaksjhakjshdkas.j
+	  hakjshdaksajncakjnca</p>
+	  </div>
+	  <div class="course-col">
+	  <h3>something</h3>
+	  <p>bilmedim bura ne yazim ahashdlksadakshdlaskhdlakshdashdlsa.kjhdakjs
+	  hfaksjhakjshdkas.j
+	  hakjshdaksajncakjnca</p>
+	  </div>
+	  <div class="course-col">
+	  <h3>something</h3>
+	  <p>bilmedim bura ne yazim ahashdlksadakshdlaskhdlakshdashdlsa.kjhdakjs
+	  hfaksjhakjshdkas.j
+	  hakjshdaksajncakjnca</p>
+	  
+	  </div>
+	  </div>
+	  
+	  </section>
+</body>
+</html>
